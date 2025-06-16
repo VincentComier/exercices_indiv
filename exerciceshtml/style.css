@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: "comic sans ms";
+    color:hotpink;
+}
+p {
+    text-align: center;
+    font-family: "comic sans ms";
+    color:hotpink;
+}
+ul {
+    text-align: center;
+    font-family: "comic sans ms";
+    color:hotpink;
+}
+img {
+    border-radius: 50%;
+    border: 5px solid hotpink;
+    width: 50%;
+}
+body {
+    background-color:pink
+}
