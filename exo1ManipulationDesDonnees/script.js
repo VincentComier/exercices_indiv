@@ -11,6 +11,11 @@
 console.log("Accède au tableau pour afficher dans la console “Le Filip” :" ,candidates[0])
 console.log("Accède au tableau pour afficher dans la console “Edeha Noire” :" ,candidates[7])
 
-for (item of candidates) {
+for (let item of candidates) {
     console.log(item)
+}
+
+for (let item of candidates) {
+  console.log(item)
+  document.querySelector("#tableau").innerHTML += `<li>${item}</li>`
 }
